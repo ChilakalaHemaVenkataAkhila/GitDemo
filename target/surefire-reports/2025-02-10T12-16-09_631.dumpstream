@@ -1,0 +1,4 @@
+# Created at 2025-02-10T12:16:10.096
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Software\eclipse\shopify\CucumberFramework\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
