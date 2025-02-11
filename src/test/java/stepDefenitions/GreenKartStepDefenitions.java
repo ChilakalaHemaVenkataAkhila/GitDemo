@@ -43,6 +43,10 @@ public class GreenKartStepDefenitions {
 	String childWindow=i1.next();
 	System.out.println("*******");
 	System.out.println("commits ");
+	System.out.println("commits1 ");
+	System.out.println("commits2 ");
+	System.out.println("commits3 ");
+	
 	driver.switchTo().window(childWindow);
 	driver.findElement(By.xpath("//input[@type='search']")).sendKeys(shortName);
 	Thread.sleep(2000);
