@@ -42,6 +42,7 @@ public class GreenKartStepDefenitions {
 	String parentWindow=i1.next();
 	String childWindow=i1.next();
 	System.out.println("*******");
+	System.out.println("commits ");
 	driver.switchTo().window(childWindow);
 	driver.findElement(By.xpath("//input[@type='search']")).sendKeys(shortName);
 	Thread.sleep(2000);
